@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+/*ベース---------------------------------*/
+
+body {
+    color: #A6ADB4;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.7;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+h1 {
+    line-height: 1;
+}
+
+h2 {}
+
+
+li {
+    list-style: none;
+}
+
+small {}
+
+/*レイアウト-----------------------------*/
+
+.l-header {
+    padding: 56px;
+}
+
+.l-inner {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.l-section {
+    padding: 60px;
+}
+
+.l-col6 {
+    width: 47.5%;
+}
+
+.l-col3 {
+    width: 30%;
+}
+
+.global {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav1 {
+    margin-left: 20px;
+}
+
+/*スペーシング*/
+
+.l-mb7 {
+    margin-bottom: 60px;
+}
+
+.l-mb7- {
+    margin-bottom: -60px;
+}
+
+/*フレックスボックス*/
+
+.l-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.l-justify-between {
+    justify-content: space-between;
+}
+
+.l-align-center {
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+/*モジュール-----------------------------*/
+
+/*ニュース*/
+
+.news-category {}
+
+.news-title {}
+
+/*カード*/
+
+/*ボタン*/
+
+/*データ*/
